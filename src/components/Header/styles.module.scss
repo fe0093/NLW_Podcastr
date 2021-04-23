@@ -1,0 +1,28 @@
+.headerContainer {
+    background: var(--white);
+    height: 6.5rem;
+  
+    display: flex;
+    align-items: center;
+  
+    padding: 2rem 4rem;
+  
+    border-bottom: 1px solid var(--gray-100);
+  
+    p {
+      margin-left: 2rem;
+      padding: 0.25rem 0 0.25rem 2rem;
+      border-left: 1px solid var(--gray-100);
+    }
+  
+    span {
+      margin-left: auto;
+      text-transform: capitalize;
+    }
+  }
+
+  /* O arquivo com a extensão module serve como um arquivo único de SCSS que será indexado a apenas um único tipo de componente ou página dentro da aplicação.
+    Isso faz com que, por exemplo, a estilização que eu aplicarei para o Header, será especificamente par ao Header, independente de eu ter outros componentes com p de parágrafo.
+    Ou com qualquer outro tipo de classificação por tag ou classe.
+    Isso permite ter várias folhas de estilo configuradas e cada uma para seu determinado espaço e elemento.
+  */
